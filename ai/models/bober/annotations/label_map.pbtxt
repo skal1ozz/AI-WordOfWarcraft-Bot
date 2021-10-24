@@ -1,0 +1,14 @@
+item {
+    id: 1
+    name: 'bobber'
+}
+
+item {
+    id: 2
+    name: 'splash'
+}
+
+item {
+    id: 3
+    name: 'fishing'
+}
