@@ -39,7 +39,7 @@ class Main(AbstractWorker):
         # init context
         context = dict(mice=mice, keyboard=keyboard, redis=redis)
 
-        # init bober
+        # init bober module
         # bober = Bober()
 
         # init server app
@@ -51,7 +51,7 @@ class Main(AbstractWorker):
         server.listen(settings.Server.port,
                       settings.Server.host)
         server.start()
-        raise tornado.gen.Return([server])
+        raise tornado.gen.Return([])
 
 
 if __name__ == "__main__":
